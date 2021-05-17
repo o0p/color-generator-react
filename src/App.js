@@ -21,6 +21,9 @@ function App() {
           <input type="text" value={color} />
         </form>
       </section>
+      <section className="colors">
+        <h4>list goes here</h4>
+      </section>
     </>
   );
 }
