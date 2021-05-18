@@ -22,6 +22,7 @@ function App() {
             type="text"
             value={color}
             onChange={(e) => setColor(e.target.value)}
+            placeholder="#f06d06"
           />
           <button className="btn" type="submit">
             submit
