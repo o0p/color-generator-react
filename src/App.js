@@ -17,7 +17,7 @@ function App() {
     <>
       <section className="container">
         <h3>color generator</h3>
-        <form onSubmi={handleSubmit}>
+        <form onSubmit={handleSubmit}>
           <input
             type="text"
             value={color}
