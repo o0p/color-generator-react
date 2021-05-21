@@ -13,6 +13,8 @@ const SingleColor = ({ rgb, weight, index, hexColor }) => {
       style={{ backgroundColor: `rgb(${bcg})` }}>
       <p className="percent-value">{weight}%</p>
       <p className="color-value">{hexValue}</p>
+
+      {alert && <p className="alert"> coppied to clipboard</p>}
     </article>
   );
 };
